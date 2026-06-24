@@ -1,0 +1,6 @@
+/bin-hexdump
+/yup-hexdump
+/hexdump
+/dist
+/bin
+coverage*
