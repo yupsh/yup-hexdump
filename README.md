@@ -1,20 +1,9 @@
-# yup-hexdump
+[![actions](https://github.com/yupsh/yup-hexdump/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-hexdump/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-hexdump/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-hexdump/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-hexdump/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-hexdump/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-hexdump/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-hexdump/actions/workflows/shell.yml)
 
-```
-NAME:
-   hexdump - display file contents in hexadecimal, decimal, octal, or ascii
-
-USAGE:
-   hexdump [OPTIONS] [FILE...]
-
-   The hexdump utility displays FILE contents in various formats.
-   With no FILE, or when FILE is -, read standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --canonical, -C  canonical hex+ASCII display
-   --help, -h       show help
-   --version        print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
