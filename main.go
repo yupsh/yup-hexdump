@@ -31,7 +31,12 @@ var spec = clix.Spec{
 	Synopsis: synopsis,
 	Build:    build,
 	Flags: []urf.Flag{
-		&urf.BoolFlag{Name: flagCanonical, Aliases: []string{"C"}, Usage: "canonical hex+ASCII display"},
+		&urf.BoolFlag{
+			Name:    flagCanonical,
+			Aliases: []string{"C"},
+			Usage:   "canonical hex+ASCII display",
+			Sources: urf.EnvVars("YUP_HEXDUMP_CANONICAL"),
+		},
 	},
 }
 
